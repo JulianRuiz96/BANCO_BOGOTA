@@ -22,14 +22,11 @@ function arrayAlCuadradoYFiltrado(arr, S) {
 
 // Ejemplos con S=6
 const ejemplo1 = [1, 2, 3, 5, 6, 8, 9];
-console.log(arrayAlCuadradoYFiltrado(ejemplo1, 6)); // Salida [1, 4, 9, 25, 36, 64]
-
+console.log(arrayAlCuadradoYFiltrado(ejemplo1, 6)); 
 const ejemplo2 = [-2, -1];
 console.log(arrayAlCuadradoYFiltrado(ejemplo2, 6));
-
 const ejemplo3 = [-6, -5, 0, 5, 6];
 console.log(arrayAlCuadradoYFiltrado(ejemplo3, 6)); 
-
 const ejemplo4 = [-10, 10];
 console.log(arrayAlCuadradoYFiltrado(ejemplo4, 6)); 
 
